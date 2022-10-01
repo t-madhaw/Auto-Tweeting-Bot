@@ -1,4 +1,4 @@
-# Auto-Tweeter Bot
+# Auto-Tweeting Bot
 
 This bot lets you tweet quotes from a .txt file on your computer. You can customise the bot to choose a particular quote from different .txt files within a folder.
 
