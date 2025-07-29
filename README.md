@@ -2,6 +2,8 @@
 
 This bot lets you tweet quotes from a .txt file on your computer. You can customise the bot to choose a particular quote from different .txt files within a folder.
 
+Note: Due to Twitter's changes in Developer's Portal, this bot is no longer functional.
+
 
 ### Prerequisites
 
@@ -26,10 +28,6 @@ You can add more than one .txt file inside the sources folder.
 
 The program selects a random .txt file from the sources folder. Then it makes a list of quotes(seperated by $) from that .txt file and chooses a random quote from that list. 
 It sends the selected quote to be tweeted and removes that quote from that list so it may not be duplicated in future. To keep track of the tweets posted, the quote is added to another .txt file of the same name (a new .txt file is created if it doesn't exist already) in the tweeted folder.
-
-### Future Plans
-
-I am currently learning how to host this bot on AWS Lambda so that it may run even when my system is shut down.
 
 
 ## Authors
